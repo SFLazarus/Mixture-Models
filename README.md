@@ -15,9 +15,16 @@
 
 ---
 ## Data
-- Wine quality data (available in data folder of this repo)
-- Iris data (available in data folder of this repo)
+- [Wine quality data](https://github.com/SFLazarus/Mixture-Models/blob/main/data/winequality-red.csv) 
+- [Iris species data](https://github.com/SFLazarus/Mixture-Models/blob/main/data/iris.csv)
 
+---
+## Explanation:
+
+- EM is an iterative algorithm to find the maximum likelihood when there are latent variables. 
+- In statistics, latent variables are variables that are not directly observed but are rather inferred from other variables that are observed.
+- The algorithm iterates between performing an Expectation (E) step, which creates a heuristic of the posterior distribution and the log-likelihood using the current estimate for the parameters, and a maximization (M) step, which computes parameters by maximizing the expected log-likelihood from the E step. 
+- The parameter-estimates from M step are then used in the next E step. 
 ---
 
 ## Results:
